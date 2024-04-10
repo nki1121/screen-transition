@@ -8,6 +8,12 @@ struct ContentView: View {
                     Text("SecondViewへ")
                 }
             }
+            Button {
+                
+            } label: {
+                Text("モーダル遷移")
+                    .padding()
+            }
             .padding()
             .navigationTitle("画面1")
         }
