@@ -1,21 +1,17 @@
-//
-//  ContentView.swift
-//  screent-transition
-//
-//  Created by 中井晋平 on 2024/04/11.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            VStack {
+                Image(systemName: "globe")
+                    .imageScale(.large)
+                    .foregroundColor(.accentColor)
+                Text("Hello, world!")
+            }
+            .padding()
+            .navigationTitle("画面1")
         }
-        .padding()
     }
 }
 

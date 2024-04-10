@@ -11,6 +11,7 @@
 		AE51564B2BC6E2A800D1A172 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE51564A2BC6E2A800D1A172 /* ContentView.swift */; };
 		AE51564D2BC6E2AA00D1A172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE51564C2BC6E2AA00D1A172 /* Assets.xcassets */; };
 		AE5156502BC6E2AA00D1A172 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE51564F2BC6E2AA00D1A172 /* Preview Assets.xcassets */; };
+		AE5156572BC6E42400D1A172 /* SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5156562BC6E42400D1A172 /* SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		AE51564A2BC6E2A800D1A172 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AE51564C2BC6E2AA00D1A172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE51564F2BC6E2AA00D1A172 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		AE5156562BC6E42400D1A172 /* SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 				AE51564A2BC6E2A800D1A172 /* ContentView.swift */,
 				AE51564C2BC6E2AA00D1A172 /* Assets.xcassets */,
 				AE51564E2BC6E2AA00D1A172 /* Preview Content */,
+				AE5156562BC6E42400D1A172 /* SecondView.swift */,
 			);
 			path = "screent-transition";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE5156572BC6E42400D1A172 /* SecondView.swift in Sources */,
 				AE51564B2BC6E2A800D1A172 /* ContentView.swift in Sources */,
 				AE5156492BC6E2A800D1A172 /* screent_transitionApp.swift in Sources */,
 			);
