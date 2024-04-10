@@ -1,7 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    @State var inShowThirdView = false
+    @State var isShowThirdView = false
     var body: some View {
         NavigationStack {
             VStack {
@@ -14,6 +14,9 @@ struct ContentView: View {
             } label: {
                 Text("モーダル遷移")
                     .padding()
+            }
+            .sheet(isPresented: $isShowThirdView) {
+                ThirdView()
             }
             .padding()
             .navigationTitle("画面1")
