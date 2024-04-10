@@ -4,10 +4,9 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             VStack {
-                Image(systemName: "globe")
-                    .imageScale(.large)
-                    .foregroundColor(.accentColor)
-                Text("Hello, world!")
+                NavigationLink(destination: SecondView().navigationTitle("画面2")) {
+                    Text("SecondViewへ")
+                }
             }
             .padding()
             .navigationTitle("画面1")
