@@ -10,7 +10,7 @@ struct ContentView: View {
                 }
             }
             Button {
-                
+                isShowThirdView = true
             } label: {
                 Text("モーダル遷移")
                     .padding()
