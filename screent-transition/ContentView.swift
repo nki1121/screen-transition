@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var inShowThirdView = false
     var body: some View {
         NavigationStack {
             VStack {
